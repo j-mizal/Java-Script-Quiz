@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 1.5rem;
+    background-color: rgb(13, 10, 20);
+    color:rgb(222, 220, 227)
+    
+}
+
+body p, input, h1 {
+    font-family: tahoma, arial;
+}
+
+#submit-button, #reset-button {
+    align-self: center;
+    margin-top: 1.2rem;
+}
+
+input {
+    margin: .5rem;
+}
+
+.quiz-card {
+   border: solid 1px white;
+   padding: 1.2rem;
+}
+
+button {
+    padding: .3rem;
+    background-color: rgb(213, 206, 196);
+    font-family: tahoma, arial;
+    box-shadow: 0 2px antiquewhite, 0 1px antiquewhite;
+}
+
+#result-container {
+    font-family: tahoma, arial;
+}
+
+button:hover {
+
+}
