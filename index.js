@@ -70,6 +70,7 @@ document.getElementById("reset-button").addEventListener("click", function() {
 
     });
     
+    let totalCorrectAnswers = 0;
     document.getElementById("submit-button").disabled = false;
 
     document.getElementById("title").innerHTML = "Alright! Try it again!"
